@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- Add Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+            <h1>Weather Forecast</h1>
+            <div class="city-dropdown">
+                <label for="city-select">Select a city:</label>
+                <select id="city-select" class="custom-select"></select>
+            </div>
+                <table class="table-info mt-4 table-bordered">
+                    <thead> 
+                        <!-- quick info -->
+                        <tr>
+                            <th>Date </th>
+                            <th>Temperature</th>
+                            <th>Wind Speeds</th>
+                        </tr>
+
+                        <tr id="weatherRow">
+                            <th id="weatherDate">Monday</th>
+                            <th id="weatherTemp">50</th>
+                            <th id="weatherWind">About 360</th>
+                        </tr>
+
+                    </thead>
+                </table>
+            </div>
+     </div>
+     
+</body>
+</html>
